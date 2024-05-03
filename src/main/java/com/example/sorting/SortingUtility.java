@@ -38,7 +38,6 @@ public class SortingUtility {
         } while (swapped);
     }
 
-
     public static <T extends Comparable<T>> void shellSort(T[] data) {
 
         int[] gaps = {701, 301, 132, 57, 23, 10, 4, 1};
